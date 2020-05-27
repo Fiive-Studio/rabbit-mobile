@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rabbit Calendar</string>
+    <string name="app_version">v2.0</string>
+    <string name="app_group_key">rabbitKey</string>
+    <string name="app_url">https://disosite.wordpress.com/rabbit-calendar/</string>
+    <string name="database_name">rabbit-db</string>
+
+    <!-- Cambiar desde aqui -->
+    <string name="app_notification">Tarea pendiente de \'%1$s\'</string>
+    <string name="app_documentation">Lea nuestra documentación</string>
+    <string name="title_activity_home">Home</string>
+    <string name="menu_add">Agregar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="dialog_yes">Aceptar</string>
+    <string name="dialog_no">Cancelar</string>
+    <string name="schedule">Horario</string>
+    <string name="task">Tareas</string>
+    <string name="task2">Tarea</string>
+    <string name="settings">Ajustes</string>
+    <string name="settings_delete">Borrar todos los datos</string>
+    <string name="settings_delete_message">¿Esta seguro de eliminar todas las Materias, Horarios y Tareas?</string>
+    <string name="settings_message">Se eliminaron todos los datos</string>
+    <string name="courses">Materias</string>
+    <string name="course2">Materia</string>
+    <string name="course">Materia:</string>
+    <string name="courses_delete_message">¿Esta seguro de eliminar la Materia?</string>
+    <string name="courses_add">Se agregó la materia</string>
+    <string name="courses_edit">Se editó la materia</string>
+    <string name="courses_delete">Se eliminó la materia</string>
+    <string name="start_hour">Hora de inicio:</string>
+    <string name="end_hour">Hora de fin:</string>
+    <string name="home_tab_1">Próximo Horario</string>
+    <string name="home_tab_1_1">No hay Horario Programado</string>
+    <string name="home_tab_2">Tareas de la Semana</string>
+    <string name="schedule_delete_message">¿Esta seguro de eliminar la Materia del Horario?</string>
+    <string name="schedule_hour_validation">La Hora de fin no puede ser menor que la Hora de inicio</string>
+    <string name="schedule_course_validation">Para crear el horario, primero debe agregar materias</string>
+    <string name="schedule_add">Se agregó la materia \'%1$s\' al día \'%2$s\'</string>
+    <string name="schedule_edit">Se editó la materia \'%1$s\' del día \'%2$s\'</string>
+    <string name="task_title">Título</string>
+    <string name="task_description">Descripción</string>
+    <string name="task_alarm_date">Fecha de Alarma</string>
+    <string name="task_course_validation">Para crear Tareas, primero debe agregar materias</string>
+    <string name="task_select_alarm">Fecha y Hora</string>
+    <string name="task_title_validation">Debe agregar un título</string>
+    <string name="task_add">Se agregó la tarea a la materia \'%1$s\'</string>
+    <string name="task_edit">Se editó la tarea de la materia \'%1$s\'</string>
+    <string name="task_delete_message">¿Esta seguro de eliminar la Tarea?</string>
+    <string name="task_delete">Se eliminó la tarea de la materia \'%1$s\'</string>
+    <string name="LU">Lunes</string>
+    <string name="MA">Martes</string>
+    <string name="MI">Miercoles</string>
+    <string name="JU">Jueves</string>
+    <string name="VI">Viernes</string>
+    <string name="SA">Sabado</string>
+    <string name="DO">Domingo</string>
+    <!-- Cambiar hasta aqui -->
+
+    <integer name="default_year">1990</integer>
+    <integer name="default_day">1</integer>
+    <integer name="task_title_max">50</integer>
+    <integer name="task_description_max">300</integer>
+    <integer name="schedule_add_minutes">30</integer>
+</resources>

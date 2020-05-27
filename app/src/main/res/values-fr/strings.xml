@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rabbit Calendar</string>
+    <string name="app_version">v2.0</string>
+    <string name="app_group_key">rabbitKey</string>
+    <string name="app_url">https://disosite.wordpress.com/rabbit-calendar/</string>
+    <string name="database_name">rabbit-db</string>
+
+    <!-- Cambiar desde aqui -->
+    <string name="app_notification">Devoir de \'%1$s\' dans l\'attente d\'être fait</string>
+    <string name="app_documentation">Lisez le guide d\'utilisation</string>
+    <string name="title_activity_home">Home</string>
+    <string name="menu_add">Ajouter</string>
+    <string name="menu_edit">Modifier</string>
+    <string name="menu_delete">Supprimer</string>
+    <string name="dialog_yes">OK</string>
+    <string name="dialog_no">Annuler</string>
+    <string name="schedule">Horaire</string>
+    <string name="task">Devoirs</string>
+    <string name="task2">Devoir</string>
+    <string name="settings">Paramètres</string>
+    <string name="settings_delete">Supprimer toutes les données</string>
+    <string name="settings_delete_message">¿Etes-vous sûr de supprimer tous les cours, les horaires et les devoirs?</string>
+    <string name="settings_message">Toutes les données ont été supprimées</string>
+    <string name="courses">Cours</string>
+    <string name="course2">Cours</string>
+    <string name="course">Cours:</string>
+    <string name="courses_delete_message">¿Etes-vous sûr de supprimer le cours?</string>
+    <string name="courses_add">Le cours a été ajouté</string>
+    <string name="courses_edit">Le cours a été modifié</string>
+    <string name="courses_delete">Le cours a été supprimé</string>
+    <string name="start_hour">Heure de début:</string>
+    <string name="end_hour">Heure de fin:</string>
+    <string name="home_tab_1">Horaire prochain</string>
+    <string name="home_tab_1_1">Aucun horaire programmé</string>
+    <string name="home_tab_2">Devoirs de la semaine</string>
+    <string name="schedule_delete_message">¿Etes-vous sûr de supprimer le cours attribué à l\'horaire?</string>
+    <string name="schedule_hour_validation">L\'heure de fin ne peut pas être inférieure à l\'heure de début</string>
+    <string name="schedule_course_validation">Pour créer l\'horaire vous devez d\'abord ajouter des cours</string>
+    <string name="schedule_add">Le cours de \'%1$s\' a été ajouté au \'%2$s\'</string>
+    <string name="schedule_edit">Le cours de \'%1$s\' attribué au \'%2$s\' a été édité</string>
+    <string name="task_title">Titre</string>
+    <string name="task_description">Description</string>
+    <string name="task_alarm_date">Date de l\'alarme</string>
+    <string name="task_course_validation">Pour créer des devoirs vous devez d\'abord ajouter des cours</string>
+    <string name="task_select_alarm">Date et heure</string>
+    <string name="task_title_validation">Vous devez ajouter un titre</string>
+    <string name="task_add">Le devoir a été ajouté au cours de \'%1$s\'</string>
+    <string name="task_edit">Le devoir de \'%1$s\' a été édité</string>
+    <string name="task_delete_message">¿Etes-vous sûr de supprimer le devoir?</string>
+    <string name="task_delete">Le devoir de \'%1$s\' a été supprimé</string>
+    <string name="LU">Lundi</string>
+    <string name="MA">Mardi</string>
+    <string name="MI">Mercredi</string>
+    <string name="JU">Jeudi</string>
+    <string name="VI">Vendredi</string>
+    <string name="SA">Samedi</string>
+    <string name="DO">Dimanche</string>
+    <!-- Cambiar hasta aqui -->
+
+    <integer name="default_year">1990</integer>
+    <integer name="default_day">1</integer>
+    <integer name="task_title_max">50</integer>
+    <integer name="task_description_max">300</integer>
+    <integer name="schedule_add_minutes">30</integer>
+</resources>

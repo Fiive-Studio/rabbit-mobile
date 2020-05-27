@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp">
+    <TextView
+        android:id="@+id/lblCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course"
+        android:textSize="15dp"
+        android:paddingBottom="10dp"/>
+    <Spinner
+        android:id="@+id/spCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblCourse"/>
+    <TextView
+        android:id="@+id/lblStartHourTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_hour"
+        android:textSize="15dp"
+        android:layout_below="@+id/spCourses"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+    <diso.rabbit.controls.ButtonExtends
+        android:id="@+id/btnStartHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spCourses"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/lblEndHourTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_hour"
+        android:textSize="15dp"
+        android:layout_below="@+id/btnStartHour"
+        android:paddingBottom="10dp"/>
+    <diso.rabbit.controls.ButtonExtends
+        android:id="@+id/btnEndHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnStartHour"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"/>
+</RelativeLayout>

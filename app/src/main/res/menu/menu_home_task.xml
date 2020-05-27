@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tasks"
+        android:showAsAction="ifRoom|withText|never"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/task" />
+
+    <item
+        android:id="@+id/days"
+        android:showAsAction="always|collapseActionView"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/schedule"/>
+
+    <item
+        android:id="@+id/courses"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/courses"/>
+
+    <item
+        android:id="@+id/settings"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+</menu>
