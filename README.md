@@ -1,6 +1,7 @@
 # Rabbit Calendar
 
 ![Fiive Studio](https://fiivestudio.com/wp-content/uploads/2020/06/Fiive-Open-Source_1.png)
+
 Proyecto básico para el manejo de horarios y materias para estudiantes
 
 ## Comenzando 🚀
